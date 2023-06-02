@@ -1,0 +1,87 @@
+body{
+
+    margin: 0px;
+
+}
+
+#base{
+
+    display: grid;
+    border: 1px black dashed;
+    grid-template-columns: repeat(5, 0.5fr);
+    grid-template-rows: repeat(5, 0.5fr);
+
+    position: absolute;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgb(3, 3, 2);
+}
+
+#menu{
+
+    grid-row: 1/2;
+    grid-column: 1/6;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: 5px;
+
+    background-color: darkgoldenrod;
+
+    overflow: hidden;
+
+}
+
+#sideMenu{
+
+    grid-row: 2/6;
+    grid-column: 1/2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 5px;
+
+    background-color: orange;
+
+    overflow: hidden;
+
+}
+
+#menu>.botao{
+
+    background-color: brown;
+
+    margin: 10px;
+    width: 20%;
+    height: 50%;
+
+    border: 1px black solid;
+    border-radius: 10px;
+
+    
+
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sideMenu>.botao{
+
+    background-color: brown;
+
+    margin: 10px;
+    width: 80%;
+    height: 100px;
+
+    border: 1px black solid;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(215, 238, 250);
+}
+h2 {
+    color:cadetblue;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+h1 {
+    font-size: 28px;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+    color:cadetblue;
+    text-align: center;
+    margin-top: 65px;
+    font-style: italic;
+}
+p {
+    font-size: 18px;
+    color: black;
+    font-weight: 100;
+}
